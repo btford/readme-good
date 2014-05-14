@@ -1,4 +1,4 @@
-# readme good
+# readme good [![Build Status](https://travis-ci.org/btford/readme-good.svg?branch=master)](https://travis-ci.org/btford/readme-good)
 
 naive judge of the quality of a markdown readme for an open source project
 

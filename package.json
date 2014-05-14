@@ -1,6 +1,6 @@
 {
   "name": "readme-good",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "naive judge of the quality of a markdown readme for an open source project",
   "main": "good.js",
   "scripts": {

@@ -1,0 +1,31 @@
+{
+  "name": "readme-good",
+  "version": "0.0.0",
+  "description": "naive judge of the quality of a markdown readme for an open source project",
+  "main": "good.js",
+  "scripts": {
+    "test": "jasmine-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:btford/readme-good.git"
+  },
+  "keywords": [
+    "research",
+    "discoverability",
+    "quality",
+    "english"
+  ],
+  "author": "Brian Ford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btford/readme-good/issues"
+  },
+  "homepage": "https://github.com/btford/readme-good",
+  "dependencies": {
+    "write-good": "~0.5.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.3"
+  }
+}

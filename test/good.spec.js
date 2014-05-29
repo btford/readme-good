@@ -10,6 +10,10 @@ describe('headers', function () {
     expect(good('#license\nMIT\n#prior art\nlalala').headers).toBe(1);
   });
 
+  it('should have allow "related" instead of "see also"', function () {
+    expect(good('#license\nMIT\n#related\nlalala').headers).toBe(1);
+  });
+
   it('should have a score of .5 if the license section is missing', function () {
     expect(good('#see also\nMIT').headers).toBe(.5);
   });

@@ -15,7 +15,8 @@ var readmeGood = require('readme-good');
 // returns a hash representing % fir each category
 // 1 is good, 0 is bad
 readmeGood('# this is some markdown\n\n# license\n');
-// -> { headers: 0.5, writing: 1 }
+// -> { headers: { score: 0.5, suggestions: ['should have a "see also" section'] },
+//      writing: { score: 1,   suggestions: [] } }
 ```
 
 ## Future Work
